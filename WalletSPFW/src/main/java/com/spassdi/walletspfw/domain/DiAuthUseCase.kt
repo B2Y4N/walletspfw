@@ -24,10 +24,14 @@ import kotlinx.coroutines.launch
 import java.security.PrivateKey
 import java.util.UUID
 
-class DiAuthUseCase(context: Context, private val licenseKey: String) {
+class DiAuthUseCase(
+    context: Context,
+//    private val licenseKey: String
+) {
     private val diAuthRepository = DiAuthRepository()
 //    private val licenseKeyRepository = LicenseKeyRepository()
-    private val userInfoUseCase = UserInfoUseCase(context, licenseKey)
+//    private val userInfoUseCase = UserInfoUseCase(context, licenseKey)
+    private val userInfoUseCase = UserInfoUseCase(context)
     private val digitalIdentityManager = DigitalIdentityManager()
     private val bundleId = context.packageName
 

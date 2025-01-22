@@ -12,7 +12,10 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 
-class UserInfoUseCase(context: Context, private val licenseKey: String) {
+class UserInfoUseCase(
+    context: Context,
+//    private val licenseKey: String
+) {
     private val userInfoRepository = UserInfoRepository(context)
 //    private val licenseKeyRepository = LicenseKeyRepository()
     private val digitalIdentityManager = DigitalIdentityManager()
