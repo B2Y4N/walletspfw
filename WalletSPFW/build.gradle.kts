@@ -54,7 +54,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
 
-                groupId = "com.spassdi"
+                groupId = "com.github.B2Y4N"
                 artifactId = "walletspfw"
                 version = "1.0.0"
             }
