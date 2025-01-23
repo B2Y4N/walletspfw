@@ -5,20 +5,18 @@ It acts as a demo for the SPass Wallet library.
 This library is written in Kotlin and is available for Android.
 
 ## Table of Contents
-- [SPass Wallet Demo Library](#spass-wallet-demo-library)
-  - [Table of Contents](#table-of-contents)
-  - [:heavy\_exclamation\_mark: Disclaimer](#heavy_exclamation_mark-disclaimer)
-  - [Requirements](#requirements)
-  - [Installation](#installation)
-  - [Usage](#usage)
-    - [Instantiating the DiAuthUseCase](#instantiating-the-diauthusecase)
-    - [Onboarding](#onboarding)
-    - [Login](#login)
-    - [Instantiating the UserInfoUseCase](#instantiating-the-userinfousecase)
-    - [Save User Info](#save-user-info)
-    - [Retrieve User Info](#retrieve-user-info)
-    - [Clear User Info](#clear-user-info)
-    - [Check Cert Validity](#check-cert-validity)
+- [Disclaimer](#heavy_exclamation_mark-disclaimer)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Instantiating the DiAuthUseCase](#instantiating-the-diauthusecase)
+  - [Onboarding](#onboarding)
+  - [Login](#login)
+  - [Instantiating the UserInfoUseCase](#instantiating-the-userinfousecase)
+  - [Save User Info](#save-user-info)
+  - [Retrieve User Info](#retrieve-user-info)
+  - [Clear User Info](#clear-user-info)
+  - [Check Cert Validity](#check-cert-validity)
 
 ## :heavy_exclamation_mark: Disclaimer
 The released software is an initial development release version:
