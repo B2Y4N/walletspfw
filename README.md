@@ -1,6 +1,6 @@
-# SPass Wallet Demo Library
+# DI Demo Library
 This library provides a set of classes to manage and showcase some of the functionalities.
-It acts as a demo for the SPass Wallet library.
+It acts as a demo for the DI library.
 
 This library is written in Kotlin and is available for Android.
 
